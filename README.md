@@ -1,1 +1,1 @@
-https://corsbypass-sl.herokuapp.com/
+[https://corsbypass-sl.onrender.com/](https://corsbypass-sl.onrender.com/)
