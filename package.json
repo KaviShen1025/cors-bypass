@@ -45,6 +45,7 @@
   "scripts": {
     "deploy": "npm run build && gh-pages -d dist -b master",
     "lint": "eslint .",
+	"build": "webpack --config=Scripts/config/webpack.prod.js",
     "test": "mocha ./test/test*.js --reporter spec",
     "test-coverage": "istanbul cover ./node_modules/.bin/_mocha -- test/test.js test/test-ratelimit.js --reporter spec"
   },
